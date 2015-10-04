@@ -1,12 +1,19 @@
 ##粗略步驟
 1.git clone
+
 2.新增檔案,或修改檔案
+
 3.查看 git status
+
 4.git add *
+
 5.git config --global user.email "alicode@github.com"
   git config --global user.name  "alicode"
+
 6.git commit -m "First20150626"
+
 7.git push 
+
 GitHUB ID:
 GitHUB PW:
 
