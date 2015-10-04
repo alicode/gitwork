@@ -34,8 +34,6 @@ git reset     ==>重置目前工作目錄的"索引狀態"
 ```
 git reset --hard
 ```
-=======
->>>>>>> 7292e18d97a2d9dd660e1ebd871e6243b5ca9c5a
 
 ##參考資料
 - [30 天精通 Git 版本控管](https://github.com/doggy8088/Learn-Git-in-30-days)
