@@ -8,6 +8,7 @@
 4.git add *
 
 5.git config --global user.email "alicode@github.com"
+
   git config --global user.name  "alicode"
 
 6.git commit -m "First20150626"
