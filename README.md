@@ -27,6 +27,9 @@ git config --global user.email "jimmy@gogojimmy.net" (記錄作者的訊息)
 #git log
 git log -p    ==>看到檔案更詳細的變更內容
 
+#git reset
+git reset     ==>重置目前工作目錄的"索引狀態"
+
 ##參考資料
 - [30 天精通 Git 版本控管](https://github.com/doggy8088/Learn-Git-in-30-days)
 - [連猴子都能懂得的Git入門指南](http://backlogtool.com/git-guide/tw/)
