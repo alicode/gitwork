@@ -29,10 +29,13 @@ git log -p    ==>看到檔案更詳細的變更內容
 
 #git reset
 git reset     ==>重置目前工作目錄的"索引狀態"
+<<<<<<< HEAD
 如果想把工作目錄也給還原到目前的最新版，則必須輸入以下指令：
 ```
 git reset --hard
 ```
+=======
+>>>>>>> 7292e18d97a2d9dd660e1ebd871e6243b5ca9c5a
 
 ##參考資料
 - [30 天精通 Git 版本控管](https://github.com/doggy8088/Learn-Git-in-30-days)
