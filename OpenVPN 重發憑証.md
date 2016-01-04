@@ -7,12 +7,18 @@ openvpn 看起來是沒有重發憑證的相關指令,不過是可以手動修�
 1.按照經驗,server 憑證(ca.crt , )及client憑證都檢查看看是否過期。(notAfter那一行為過期日)
 2.Server端憑證
 (ca.crt)
+```sh
 echo "$(date +%Y-%m-%d)";openssl x509 -noout  -dates -in /etc/openvpn/2.0/keys/ca.crt
+```
 (splus.crt)
+```sh
 echo "$(date +%Y-%m-%d)";openssl x509 -noout  -dates -in /etc/openvpn/2.0/keys/splus.crt
+```
 3.Client端憑證
 (SplusOP.crt)
+```sh
 echo "$(date +%Y-%m-%d)";openssl x509 -noout  -dates -in /etc/openvpn/2.0/keys/SplusOP.crt
+```
 ###開始重發憑証
 
 
