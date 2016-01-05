@@ -34,5 +34,5 @@ source ./vars
 ```
 (注意過程中會提示,執行./clean-all 。請不要執行此script ,因為會把現有的 /etc/openvpn/2.0/keys/都刪除)
 
-
+###參考資料
 * (如何看憑證日期)[http://www.shellhacks.com/en/HowTo-Check-SSL-Certificate-Expiration-Date-from-the-Linux-Shell]
