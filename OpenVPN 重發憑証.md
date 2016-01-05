@@ -27,8 +27,8 @@ echo "$(date +%Y-%m-%d)";openssl x509 -noout  -dates -in /etc/openvpn/2.0/keys/S
 1. 到這個目錄 /etc/openvpn/easy-rsa/2.0/keys2
 2. 要修改 serial index.txt這兩個檔案
 3. 將要重發憑證 例如 op憑證  在 index.txt 內容哪一行刪掉,並且op 的id 是多少記下來 (例如 id=07)
-4.先看目前 serial檔案紀錄 id 是多少(例如 id=09),再將換成 id=07
-5.這樣就可以用 重新發憑證 
+4. 先看目前 serial檔案紀錄 id 是多少(例如 id=09),再將換成 id=07
+5. 這樣就可以用 重新發憑證 
 (for Client   若是 client 憑證過期)
 ```sh
 source ./vars     #注意過程中會提示,執行./clean-all 。請不要執行此script ,因為會把現有的 /etc/openvpn/2.0/keys/都刪除
